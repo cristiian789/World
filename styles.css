@@ -27,7 +27,10 @@ body {
 
 
 .descrip{
-    background-color: rgba(65, 56, 56, 0.2); /* 80% de transparencia */
+    background-color: rgba(104, 100, 100, 0.2); /* 80% de transparencia */
+    width: 100%; /* Ajusta el ancho del artículo */
+    padding: 50px; /* Añade un poco de espacio alrededor del contenido */
+    margin: 0 auto; /* Centra el artículo en la página */
 }
 .descrip h2{
     font-size: 25px; /* Tamaño de letra más grande */
@@ -55,23 +58,23 @@ h2 {
 }
 
 .nave {
-    background-color: rgba(240, 240, 240, 0.2); /* 80% de transparencia */
+    background-color: rgba(63, 50, 50, 0.2); /* 80% de transparencia */
 }
 
 .navbar-nav .nav-link {
-    color: black !important; /* Cambia el color de las letras a negro */
+    color: rgb(236, 231, 231) !important; /* Cambia el color de las letras a negro */
 }
 
 .navbar-brand, .navbar-toggler-icon {
-    color: black !important; /* Cambia el color de la marca y el ícono de menú a negro */
+    color: rgb(235, 222, 222) !important; /* Cambia el color de la marca y el ícono de menú a negro */
 }
 
 .form-control {
-    color: black;
+    color: rgb(233, 222, 222);
 }
 
 .conten1 {
-    color: black;
+    color: rgb(228, 215, 215);
 }
 
 .descriptionNuqui {
