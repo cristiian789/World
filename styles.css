@@ -174,36 +174,73 @@ p {
 /*Contacto*/
 
 .Contacto {
-    padding: 40px 20px;
-    background-color: rgba(240, 240, 240, 0.2); /* 80% de transparencia */
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Dos columnas de igual ancho */
+    gap: 20px; /* Espacio entre columnas */
+    color: white;
+}
+
+.Contacto h2{
     text-align: center;
+    color: white;
+    font-size: 30px;
+    padding: 10px;
 }
-  
-.Contacto h2 {
-    color: black;
-    
-}
-  
-.Contacto p {
-    color: black;
-}
-  
+
 .DetallesContacto {
-    text-align: left;
-    margin-bottom: 30px;
+    grid-column: 2; /* Coloca los datos en la primera columna */
+    padding: 80px;
+    color: white;
 }
-  
-.DetallesContacto h3 {
+
+.DetallesContacto p {
+    color: white;
+    padding: 5px;
+}
+
+.DetallesContacto strong {
     color: black;
 }
-  
-/*Formulario para contacto*/
 
 .formulario {
-    margin-top: 30px;
-    text-align: left;
+    max-width: 600px; /* Ajusta el ancho máximo del formulario */
+    margin: 20px 10px; /* Centra el formulario horizontalmente */
+    padding: 20px; /* Agrega un poco de espacio interior */
 }
-  
+
+label {
+    display: block; /* Hace que cada etiqueta ocupe toda la línea */
+    margin-bottom: 5px; /* Espacio entre la etiqueta y el campo */
+    font-weight: bold; /* Resalta las etiquetas */
+    color: black;
+}
+
+input[type="text"],
+input[type="email"],
+
+textarea {
+    width: 100%; /* Hace que los campos ocupen todo el ancho del formulario */
+    padding: 10px; /* Espacio interior en los campos */
+    margin-bottom: 15px; /* Espacio entre los campos */
+    border: 1px solid #ccc; /* Borde de los campos */
+    border-radius: 4px; /* Bordes redondeados en los campos */
+    font-size: 16px; /* Tamaño de fuente */
+}
+
+button {
+    background-color: #007BFF; /* Color de fondo del botón */
+    color: white; /* Color del texto del botón */
+    padding: 10px 15px; /* Espacio interior del botón */
+    border-radius: 4px; /* Bordes redondeados en el botón */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    font-size: 16px; /* Tamaño de fuente */
+}
+
+button:hover {
+    background-color: #0056b3; /* Color de fondo al pasar el mouse */
+}
+
+
 
 /*Miembros*/
 
@@ -280,3 +317,28 @@ p {
     display: block;
 }
   
+
+/*Footer*/
+
+footer {
+    
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+.redessociales {
+    list-style: none;
+    padding: 0;
+}
+.redessociales li {
+    display: inline;
+    margin: 0 10px;
+}
+.redessociales a {
+    color: #fff;
+    text-decoration: none;
+}
+.redessociales a:hover {
+    text-decoration: underline;
+}
+
