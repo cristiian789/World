@@ -1,0 +1,282 @@
+body {
+    background: rgb(9,9,121);
+    background: linear-gradient(90deg, rgba(9,9,121,0.639093137254902) 6%, rgba(73,170,233,0.7259278711484594) 39%, rgba(57,177,191,0.36458333333333337) 100%);
+}
+
+.video-section {
+    position: relative;
+    height: 80vh;
+    overflow: hidden;
+    z-index: 0;
+   
+}
+
+.video-bg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100vw;
+    height: 100vh;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+    pointer-events: none;
+    z-index: -1;
+    opacity: 0.7;
+
+}
+
+
+.descrip{
+    background-color: rgba(65, 56, 56, 0.2); /* 80% de transparencia */
+}
+.descrip h2{
+    font-size: 25px; /* Tamaño de letra más grande */
+    font-weight:lighter; /* Negrita para destacar */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; /* Tipografía elegante y cursiva */
+    font-style: oblique; /* Hace que el texto sea cursivo */
+    line-height: 1.2;
+    margin: 0;
+    color:whitesmoke;
+    text-shadow: 2px 2px 4px rgba(51, 47, 47, 0.7); /* Aumenta la sombra para mayor contraste */
+      text-align: center;
+}
+
+
+h1{
+    display: flex;
+    justify-content: center;
+    font-size: 100px;
+   color: rgba(241, 230, 65, 0.76) ;
+}
+
+h2 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.nave {
+    background-color: rgba(240, 240, 240, 0.2); /* 80% de transparencia */
+}
+
+.navbar-nav .nav-link {
+    color: black !important; /* Cambia el color de las letras a negro */
+}
+
+.navbar-brand, .navbar-toggler-icon {
+    color: black !important; /* Cambia el color de la marca y el ícono de menú a negro */
+}
+
+.form-control {
+    color: black;
+}
+
+.conten1 {
+    color: black;
+}
+
+.descriptionNuqui {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    color: black;
+    background-color: rgba(119, 109, 109, 0.384); /* 80% de transparencia */
+}
+
+/*Tipo de actividades*/
+
+.ContenedorActividades {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+  
+.Actividad {
+    background-color: rgba(240, 240, 240, 0.2); /* 80% de transparencia */
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; /* Asegura que todo el contenido esté centrado */
+}
+
+h3 {
+    margin-bottom: 10px;
+    color: black;
+}
+
+p {
+    color: black;
+}
+
+.ImgActividades{
+    width: 100%;
+    max-width: 300px;
+}
+  
+
+/*galeria de fotos*/
+
+.galeria {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: rgba(240, 240, 240, 0.2); /* 80% de transparencia */
+}
+  
+.galeria h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #2c3e50;
+}
+  
+.items {
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.ImgFotos{
+    width: 100%;
+    max-width: 300px;;
+}
+  
+  
+
+/*Testimonios*/
+
+.testimonios {
+    padding: 40px 20px;
+    background-color: rgba(240, 240, 240, 0.2); /* 80% de transparencia */
+    text-align: center;
+}
+
+.testimonio {
+    background-color: rgba(240, 240, 240, 0.2); /* 80% de transparencia */
+    border-radius: 10px;
+    padding: 20px;
+}
+  
+.testimonio h2 {
+    color: black;
+}
+
+.testimonio h3 {
+    margin-bottom: 10px;
+    color: #2c3e50;
+}
+
+.testimonio p {
+    color: black;
+}
+
+
+/*Contacto*/
+
+.Contacto {
+    padding: 40px 20px;
+    background-color: rgba(240, 240, 240, 0.2); /* 80% de transparencia */
+    text-align: center;
+}
+  
+.Contacto h2 {
+    color: black;
+    
+}
+  
+.Contacto p {
+    color: black;
+}
+  
+.DetallesContacto {
+    text-align: left;
+    margin-bottom: 30px;
+}
+  
+.DetallesContacto h3 {
+    color: black;
+}
+  
+/*Formulario para contacto*/
+
+.formulario {
+    margin-top: 30px;
+    text-align: left;
+}
+  
+
+/*Miembros*/
+
+.EquipoTrabajo {
+    padding: 40px 20px;
+    background-color: rgba(240, 240, 240, 0.2); /* 80% de transparencia */
+    text-align: center;
+}
+  
+.EquipoTrabajo h2 {
+    font-size: 2rem;
+    color: black;
+    margin-bottom: 10px;
+}
+  
+.EquipoTrabajo p {
+    color: black;
+    font-size: 1rem;
+    margin-bottom: 30px;
+}
+  
+.miembro {
+    color: black;
+}
+  
+.miembro h3 {
+    color: black;
+}
+
+
+
+  
+/*Preguntas Frecuentes*/
+
+.PreguntasFrecuentes {
+    padding: 40px 20px;
+    background-color: rgba(240, 240, 240, 0.2); /* 80% de transparencia */
+    text-align: center;
+}
+  
+.PreguntasFrecuentes h2 {
+    color: black;
+}
+  
+.PreguntasFrecuentes p {
+   color: black;
+}
+  
+.Preguntas {
+    text-align: left;
+    margin: 20px auto;
+    max-width: 600px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+  
+.Preguntas h3 {
+    color: black;
+}
+  
+.Preguntas h3:hover {
+    color: blue;
+}
+  
+.answer {
+    display: none; /* Ocultar las respuestas por defecto */
+    margin-top: 10px;
+}
+  
+  /* Mostrar la respuesta al hacer clic en la pregunta */
+.Preguntas.active .answer {
+    display: block;
+}
+  
