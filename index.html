@@ -177,79 +177,121 @@
         
         <!--
         -------------------->
-        <section class="testimonios">
-          <h2>Testimonios y reseñas</h2>
-          <p>Nuestros visitantes han disfrutado de experiencias inolvidables en Nuquí:</p>
-        
-          <div class="testimonio">
-            <h3>Juan P.</h3>
-            <div class="stars">⭐⭐⭐⭐⭐</div>
-            <p>"El avistamiento de ballenas fue algo de otro mundo. Nuquí es un lugar mágico, lleno de naturaleza virgen y gente maravillosa. ¡Recomiendo este destino a todos los que buscan desconectar!"</p>
-          </div>
-        
-          <div class="testimonio">
-            <h3>Ana R.</h3>
-            <div class="stars">⭐⭐⭐⭐</div>
-            <p>"Pasé una semana surfeando en Nuquí, y fue increíble. Las olas eran perfectas y las playas, prácticamente vacías. Un paraíso escondido en la costa pacífica."</p>
-          </div>
-        
-          <div class="testimonio">
-            <h3>Carlos F.</h3>
-            <div class="stars">⭐⭐⭐⭐⭐</div>
-            <p>"La caminata por la selva hasta la cascada fue espectacular. La naturaleza es impresionante y todo el lugar se siente como un santuario."</p>
+        <section class="container text-center p-4">
+          <div class="row">
+            <h2>Testimonios y reseñas</h2>
+            <p>Nuestros visitantes han disfrutado de experiencias inolvidables en Nuquí:</p>
+          
+            <div class="col p-4">
+              <h3>Juan P.</h3>
+              <div class="stars">⭐⭐⭐⭐⭐</div>
+              <p>"El avistamiento de ballenas fue algo de otro mundo. Nuquí es un lugar mágico, lleno de naturaleza virgen y gente maravillosa. ¡Recomiendo este destino a todos los que buscan desconectar!"</p>
+            </div>
+          
+            <div class="col p-4">
+              <h3>Ana R.</h3>
+              <div class="stars">⭐⭐⭐⭐</div>
+              <p>"Pasé una semana surfeando en Nuquí, y fue increíble. Las olas eran perfectas y las playas, prácticamente vacías. Un paraíso escondido en la costa pacífica."</p>
+            </div>
+          
+            <div class="col p-4">
+              <h3>Carlos F.</h3>
+              <div class="stars">⭐⭐⭐⭐⭐</div>
+              <p>"La caminata por la selva hasta la cascada fue espectacular. La naturaleza es impresionante y todo el lugar se siente como un santuario."</p>
+            </div>
           </div>
         </section>
 
         <section class="Contacto">
-          <h2>Contactanos</h2>
-          <h2>Información de contacto</h2>
-          
-
-          <div class="formulario">
-            <form>
-              <label for="name">Nombre:</label>
-              <input type="text" id="name" required>
-              
-              <label for="email">Email:</label>
-              <input type="email" id="email" required>
-        
-              <label for="message">Mensaje:</label>
-              <textarea id="message" rows="4" required></textarea>
-        
-              <button type="submit">Enviar</button>
-            </form>
+          <!-- Button trigger modal -->
+          <div class="text-center d-grid gap-2 col-8 mx-auto p-1">
+            <button  type="button" class="btn btn-link btn-lg text-dark fs-2 fw-bold" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              Información de contacto
+            </button>
           </div>
-          
-          <div class="DetallesContacto">
-            <p><strong>Nombre:</strong>  WorldTravel</p>
-            <p><strong>Email:</strong>  contacto@WorldTravel.com</p>
-            <p><strong>Teléfono:</strong>  +57 300 123 4567</p>
-            <p><strong>Dirección:</strong>  Calle Principal, Nuquí, Chocó, Colombia</p>
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">WorldTravel</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <p><strong>Email:</strong>  contacto@WorldTravel.com</p>
+                  <p><strong>Teléfono:</strong>  +57 300 123 4567</p>
+                  <p><strong>Dirección:</strong>  Calle Principal, Nuquí, Chocó, Colombia</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+          <h2 class="contactotitulo p-4">Contactanos</h2>
+
+          <div class="mb-3 w-50 mx-auto">
+            <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1">
+          </div>
+          <div class="mb-3 w-50 mx-auto">
+            <label for="exampleFormControlInput1" class="form-label">Email</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+          </div>
+          <div class="mb-3 w-50 mx-auto">
+            <label for="exampleFormControlTextarea1" class="form-label">Mensaje:</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+          <div class="mb-3 w-50 mx-auto text-center">
+            <button type="button" class="btn btn-primary">Enviar</button>
           </div>
           
         </section>
         <section class="EquipoTrabajo">
           <h2>Equipo de trabajo</h2>
           <p>Conoce a los miembros de nuestro equipo, apasionados por ofrecerte la mejor experiencia en Nuquí.</p>
-        
-          <div class="miembro">
-            <h3>Juan Pérez</h3>
-            <p><strong>Rol:</strong> Guía turístico</p>
-            <a href="#juan-cv">Ver hoja de vida</a>
+          
+          <div class="container text-center">
+            <div class="row align-items-start">
+              <div class="col">
+                <div class="card card-transparent" style="width: 18rem;">
+                  <img src="..." class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Cristian Lopez</h5>
+                    <p class="card-text">Desarrollador Web</p>
+                    <a href="#" class="btn btn-primary">Linkedin</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card" style="width: 18rem;">
+                  <img src="..." class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Bootstrap </h5>
+                    <p class="card-text">Framework</p>
+                    <a href="#" class="btn btn-primary">Linkedin</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card" style="width: 18rem;">
+                  <img src="..." class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Felipe Foronda</h5>
+                    <p class="card-text">Desarrollador Web</p>
+                    <a href="#" class="btn btn-primary">Linkedin</a>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-        
-          <div class="miembro">
-            <h3>Ana Rodríguez</h3>
-            <p><strong>Rol:</strong> Bióloga marina</p>
-            <a href="#ana-cv">Ver hoja de vida</a>
-          </div>
-        
-          <div class="miembro">
-            <h3>Carlos Fernández</h3>
-            <p><strong>Rol:</strong> Instructor de surf</p>
-            <a href="#carlos-cv">Ver hoja de vida</a>
-          </div>
+
         </section>
+      
+
         <section class="PreguntasFrecuentes">
           <h2>Preguntas frecuentes</h2>
           <p>Aquí encontrarás respuestas a las preguntas más comunes sobre Nuquí y nuestras actividades.</p>
