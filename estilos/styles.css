@@ -4,7 +4,7 @@ body {
     padding: 0;
    
 }
-
+  
 .bienvenidos{
     background-color: rgba(2, 1, 1, 0.2);
     
@@ -38,7 +38,7 @@ body {
 
 .descrip{
     
-    width: 50%; /* Ajusta el ancho del artículo */
+    width: 100%; /* Ajusta el ancho del artículo */
     padding: 50px; /* Añade un poco de espacio alrededor del contenido */
     margin: 0 auto; /* Centra el artículo en la página */
 }
@@ -90,7 +90,6 @@ h2 {
 
 
 /*Tipo de actividades*/
-
 
 
 .con {
@@ -199,6 +198,8 @@ p {
 .ImgActividades {
     width: 100%;
     max-width: 300px;
+    height: 200px; /* Ajusta la altura deseada */
+    object-fit: cover; /* Asegura que la imagen rellene el espacio y mantenga proporción */
     margin: 10px 0; /* Añade espacio alrededor de la imagen */
 }
 
@@ -336,6 +337,7 @@ p {
     color: black;
     font-size: 1rem;
     margin-bottom: 30px;
+    font-size: 20px;
 }
   
 
